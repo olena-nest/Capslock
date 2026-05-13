@@ -1,0 +1,17 @@
+{
+  "name": "capslock-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E tests for Caps Lock walk-in bath estimate wizard",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.0.0"
+  }
+}
